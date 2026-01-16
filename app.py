@@ -198,7 +198,7 @@ def predict_house_price(med_inc, house_age, ave_rooms, ave_bedrms, population, a
 # ========================================
 
 # Header Section
-st.markdown('<p class="title">Estimatr 🏠</p>', unsafe_allow_html=True)
+st.markdown('<p class="title">Estimate house price 🏠</p>', unsafe_allow_html=True)
 st.markdown('<p class="subtitle">AI-Powered Premium House Valuation</p>', unsafe_allow_html=True)
 
 if model is None:
@@ -282,3 +282,4 @@ st.markdown("""
         Developed for Real Estate Professionals | 2026
     </div>
 """, unsafe_allow_html=True)
+
